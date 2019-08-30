@@ -7,11 +7,13 @@ DIR="$HOME/documents"
 # set browser to open pdf with
 BROWSER="google-chrome-stable"
 
+cd $DIR
 echo "Which directory in $DIR ?"
 echo "$(ls $DIR)"
 
 read -e PDF_DIR
 
+cd $PDF_DIR
 echo "Which file?"
 echo "$(ls $DIR/$PDF_DIR)"
 

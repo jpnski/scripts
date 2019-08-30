@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Flashes focus window.
+# flashes focus window.
 
 transset-df -a -m 0
 sleep .1
