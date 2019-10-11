@@ -14,7 +14,7 @@ EXEC=dfu-programmer
 echo " [Confirmation] Flashing '$FILE' onto device."
 echo "  "
 read -rsp "Press Reset on device and any key to continue..." -n 1 key
-echo ""
+
 echo "  "
 echo " [1] Erasing..."
 sudo $EXEC $TARGET erase
